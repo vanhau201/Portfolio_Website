@@ -1,0 +1,21 @@
+.scroll_to_top {
+    position: fixed;
+    bottom: -20px;
+    right: 0;
+    margin-right: 30px;
+    font-size: 45px;
+    color: var(--primary-red);
+    cursor: pointer;
+    visibility: hidden;
+    opacity: 0;
+    transition: all ease 1s;
+    /* transform: translateY(-50px); */
+
+}
+
+.active {
+    transition: all ease 1s;
+    transform: translateY(-40px);
+    visibility: visible;
+    opacity: 1;
+}
